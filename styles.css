@@ -14,11 +14,11 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: var(--light-gray);
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
 }
-.main {
+main {
   max-width: 300px;
   margin: auto;
   background-color: var(--white);
@@ -27,7 +27,7 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .img-section {
-  height: 60%;
+  height: 70%;
 }
 .img-section img {
   width: 100%;
@@ -35,15 +35,15 @@ body {
 }
 .details-section {
   text-align: center;
-  padding: 1.2rem 1rem;
-  height: 40%;
+  padding: 1.4rem 1rem;
+  height: 30%;
 }
 .details-section h1 {
   color: var(--dark-blue);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .details-section p {
   color: var(--grayish-blue);
-  font-size: 15px;
+  font-size: 0.95rem;
   margin: 1rem 0;
 }
